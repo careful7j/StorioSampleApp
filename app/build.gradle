@@ -22,6 +22,7 @@ android {
 dependencies {
 
     compile 'com.pushtorefresh.storio:sqlite:1.12.0'
+    compile 'com.pushtorefresh.storio:sqlite-annotations:1.12.0'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
