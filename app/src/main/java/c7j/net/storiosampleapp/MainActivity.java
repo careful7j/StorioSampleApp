@@ -18,6 +18,7 @@ import java.util.List;
 
 import c7j.net.storiosampleapp.model.Tweet;
 import c7j.net.storiosampleapp.tables.TweetsTable;
+import c7j.net.storiosampleapp.ui.TweetsAdapter;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
