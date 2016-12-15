@@ -20,14 +20,14 @@ import c7j.net.storiosampleapp.model.Tweet;
 import c7j.net.storiosampleapp.tables.TweetsTable;
 import c7j.net.storiosampleapp.ui.TweetsAdapter;
 
-import static java.util.concurrent.TimeUnit.SECONDS;
+import c7j.net.storiosampleapp.model.TweetSQLiteTypeMapping;
+
 
 public class MainActivity extends AppCompatActivity {
 
     private StorIOSQLite storIOSQLite;
 
     private RecyclerView recyclerView;
-
     private TweetsAdapter tweetsAdapter;
 
 
