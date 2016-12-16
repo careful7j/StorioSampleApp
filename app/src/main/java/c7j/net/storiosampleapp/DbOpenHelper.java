@@ -20,7 +20,6 @@ public class DbOpenHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onUpgrade(@NonNull SQLiteDatabase db, int oldVersion, int newVersion) {
-        /* NOT IMPLEMENTED YET */
-    }
+    public void onUpgrade(@NonNull SQLiteDatabase db, int oldVersion, int newVersion) { /* NOT IMPLEMENTED YET */ }
+
 }

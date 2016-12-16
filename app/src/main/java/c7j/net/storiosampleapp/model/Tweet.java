@@ -9,7 +9,6 @@ import com.pushtorefresh.storio.sqlite.annotations.StorIOSQLiteType;
 import c7j.net.storiosampleapp.tables.TweetsTable;
 
 
-// This annotation will trigger annotation processor
 @StorIOSQLiteType(table = TweetsTable.TABLE)
 public class Tweet {
 

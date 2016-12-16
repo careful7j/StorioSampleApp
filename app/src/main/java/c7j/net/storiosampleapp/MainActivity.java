@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
         tweets.add(Tweet.newTweet("AndroidWeekly", "Special issue #1: StorIO — forget about SQLiteDatabase, ContentResolver APIs, ORMs suck!"));
         tweets.add(Tweet.newTweet("Apple", "Yosemite update: fixes for Wifi issues, yosemite-wifi-patch#142"));
 
-        // Looks/reads nice, isn't it?
         try {
             PutResults<Tweet> results = storIOSQLite
                     .put()
